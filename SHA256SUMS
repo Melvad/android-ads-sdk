@@ -1,7 +1,7 @@
 8398f96ff4a414c6cd2af7b5722e68d9913164114f7b9fbbd3a49f29e05258e9  .gitattributes
 2bdfdb216230559f36faf46907142b8afd478401150f810e1ddaf9a4fdcc656c  .gitignore
 71bc820f26a46fefb18a0eb391671fd23b9a63fe9d3e6c6d22e9e2ff61368536  LICENSE
-657b4ed6a8b37ae0b410ccf9bbc1a4271c8b90a603a1ed3cd70d64f1a1670a60  Licenses/NOTICE
+a8959d80ae57cd80c02d0cd93aaa4685739d11a724dab5a709201b4745f8cb82  Licenses/NOTICE
 8f475f6130f87e4394babe6f74a388d08a8a82abd492e7c96b0c5c783244c0ab  Licenses/Native-OMSDK-LICENSE
 b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1  Licenses/Prebid-LICENSE
 6e4bc2373236b1faa629f2b915afbbdf7c5bb5bce7f8bfdf18cd9e4d277a6d7f  Licenses/THIRD_PARTY_NOTICES.txt
@@ -9,7 +9,7 @@ b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1  Licenses/Prebi
 fb830eb186829cddcbc3aa93cefd97c55f9de09d1c228d5e781c2a8b60d492f7  Licenses/vendor-OMID-LICENSE
 fbb01ccec19549a7e04c35b17395fbdc3f6077f94a6097c90910d1f121b2bf4f  Licenses/vendor-OMSDK-SERVICE-LICENSE
 20ce2eba547fd0a8c4023511c003eabe510982a335cccd4e270f1f55ffbd2250  Licenses/vendor-SHAKA-LICENSE
-08c71fd93607dc8c4deac95a9cc153d19c92a03ab1a8820b5dc6357caecc2621  README.md
+f58a798f561bb5573b6ecaf4fa8bb91b63d7e02db5c35c8fdc2a6add30ce61b1  README.md
 e96aa73e51790b676cd712c4224bbb124ed6a54ecec4f66c4c7d174483ed0e3b  maven/com/melvad/android-sdk/1.0.0/android-sdk-1.0.0.aar
 d83df1eef889ad64a8db6a1c061e67551d15084e989aa372d88da4b67cdd3ffe  maven/com/melvad/android-sdk/1.0.0/android-sdk-1.0.0.aar.md5
 2b63c45443e92220794067d949b0309022ba954469e7a1d2c4b18a092fc3c952  maven/com/melvad/android-sdk/1.0.0/android-sdk-1.0.0.aar.sha1
@@ -30,5 +30,15 @@ c15041a7dc197186fc5ea3d552f5ae1e627c382c1bdcb52108935c57de7c330c  maven/com/melv
 c692590505cf2f3bb5d606c84948c966479d7dbbf2fc2f14213c7676df38e1c4  maven/com/melvad/android-sdk/1.0.1/android-sdk-1.0.1.pom.sha1
 64ab93e0b31291bd38fe8f3ca953e1cc432f96be8843fb53be11e1baf2538651  maven/com/melvad/android-sdk/1.0.1/android-sdk-1.0.1.pom.sha256
 95cd75d4b0525bad8eb9430d0603e2bc3772ae70bab6f1af67dc28357df23366  maven/com/melvad/android-sdk/1.0.1/android-sdk-1.0.1.pom.sha512
-f7d38c5249c9e7577a5dcba5564d0fed3c35206403df600fc3f321bc383b570c  maven/com/melvad/android-sdk/maven-metadata.xml
-5dc4d413423f62d5b4dbfc7ba4127183c589d50f8ecf062084be6452f890f168  release.json
+8a2411ef7ca396c125981977ca670d31ce58bdaa766ff3b8bd113c645d319d36  maven/com/melvad/android-sdk/1.0.2/android-sdk-1.0.2.aar
+308e978581a9133cbd488f16bd6dff824cdbe58e4f7f6131bd64519112253116  maven/com/melvad/android-sdk/1.0.2/android-sdk-1.0.2.aar.md5
+4229f5119c474b5e16ed2e22a16d465e5aee2c091118f40a88e8348d9a2ea932  maven/com/melvad/android-sdk/1.0.2/android-sdk-1.0.2.aar.sha1
+ff11e16c45e9b6a004428bba19ebd173d6e7b261fb06b50cf1848b46ca546000  maven/com/melvad/android-sdk/1.0.2/android-sdk-1.0.2.aar.sha256
+cbf28a632af9b44711730bee8b0acb0c18aadd7cd7706f1cc393c75d6a6ef6a4  maven/com/melvad/android-sdk/1.0.2/android-sdk-1.0.2.aar.sha512
+ebb5b8aa5def6f758164a50a2fda3cd6576e51326e89cb8f2453dacc6bd99648  maven/com/melvad/android-sdk/1.0.2/android-sdk-1.0.2.pom
+9418be20a5aec379f7a2896424fea2e0a529d2fe709e77be77c983c3ab3c1ba7  maven/com/melvad/android-sdk/1.0.2/android-sdk-1.0.2.pom.md5
+7dd82db8f3d25cd8f5e2a2878198ff633dcdd4366c859dc487bf87008da0e412  maven/com/melvad/android-sdk/1.0.2/android-sdk-1.0.2.pom.sha1
+df3ab1a7b06839d1131878344adb5b2a6d81728abea09916f4e8676032a120d1  maven/com/melvad/android-sdk/1.0.2/android-sdk-1.0.2.pom.sha256
+ad5c9a8394449045e3f78722430e85804280d68e41a1f2fc5f041a18ae432804  maven/com/melvad/android-sdk/1.0.2/android-sdk-1.0.2.pom.sha512
+332148a2d935c85ee75400e94c0a2c604a687041d54104f163b87cf4ff5843f6  maven/com/melvad/android-sdk/maven-metadata.xml
+eea8a44ed4de85c4967cf5d159c7fa9ed48f73492ddd7608aec2a5c1b55796d7  release.json

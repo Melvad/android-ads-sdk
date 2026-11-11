@@ -1,13 +1,13 @@
 {
-  "version": "1.0.1",
-  "artifact": "com.melvad:android-sdk:1.0.1",
-  "sourceRevision": "80709ce75d10ebf72a0600133530fde8ec38cfe9",
+  "version": "1.0.2",
+  "artifact": "com.melvad:android-sdk:1.0.2",
+  "sourceRevision": "9e0c16c4ca2a64fb70baf98013fb38506a04ac8b",
   "minSdk": 29,
   "compileSdk": 37,
   "prebidMobileVersion": "3.4.1",
   "nativeOmidVersion": "1.6.12",
-  "aarSha256": "7190b82e65d637476c642f8b8c75029ed0c4b0d9b5021f1c2f69bfba4596284e",
-  "pomSha256": "37848e3a77cdcc4333ddb20694838c020f1e77b1f28f83f06b4dfb3163e300d4",
+  "aarSha256": "8a2411ef7ca396c125981977ca670d31ce58bdaa766ff3b8bd113c645d319d36",
+  "pomSha256": "ebb5b8aa5def6f758164a50a2fda3cd6576e51326e89cb8f2453dacc6bd99648",
   "implementationSourcesIncluded": false,
   "license": "Melvad SDK License"
 }
