@@ -1,9 +1,11 @@
 # Melvad Android Ads SDK
 
-Binary distribution of Melvad Android Ads SDK **1.0.0** for Android 10 (API 29) and later.
+Binary distribution of Melvad Android Ads SDK **1.0.1** for Android 10 (API 29) and later.
 
 The repository contains the prebuilt AAR, public Maven metadata, documentation and
 licenses. SDK implementation sources and source maps are not distributed.
+
+Native Open Measurement 1.6.12 is included for display and video ads. No additional OMID integration is required in the publisher app.
 
 ## Installation
 
@@ -19,7 +21,7 @@ dependencyResolutionManagement {
         google()
         mavenCentral()
         maven {
-            url = uri("https://raw.githubusercontent.com/Melvad/android-ads-sdk/1.0.0/maven")
+            url = uri("https://raw.githubusercontent.com/Melvad/android-ads-sdk/1.0.1/maven")
             content { includeGroup("com.melvad") }
         }
     }
@@ -30,7 +32,7 @@ Add the SDK to your app module's `build.gradle.kts`:
 
 ```kotlin
 dependencies {
-    implementation("com.melvad:android-sdk:1.0.0")
+    implementation("com.melvad:android-sdk:1.0.1")
 }
 ```
 
@@ -132,9 +134,9 @@ Test your placements and app lifecycle on physical devices before publishing.
 
 ## Downloads and verification
 
-[Release 1.0.0](https://github.com/Melvad/android-ads-sdk/releases/tag/1.0.0)
+[Release 1.0.1](https://github.com/Melvad/android-ads-sdk/releases/tag/1.0.1)
 contains the binary distribution and checksums. The Maven layout is also available
-in [maven/com/melvad/android-sdk/1.0.0](maven/com/melvad/android-sdk/1.0.0).
+in [maven/com/melvad/android-sdk/1.0.1](maven/com/melvad/android-sdk/1.0.1).
 Use the Maven dependency for normal integration: adding only a local AAR does not
 install its transitive dependencies. `SHA256SUMS` verifies the repository distribution.
 
