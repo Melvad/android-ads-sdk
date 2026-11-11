@@ -1,0 +1,12 @@
+{
+  "version": "1.0.0",
+  "artifact": "com.melvad:android-sdk:1.0.0",
+  "sourceRevision": "a504f45bf47a505356eb094d3423db06f3841cf4",
+  "minSdk": 29,
+  "compileSdk": 37,
+  "prebidMobileVersion": "3.4.1",
+  "aarSha256": "e96aa73e51790b676cd712c4224bbb124ed6a54ecec4f66c4c7d174483ed0e3b",
+  "pomSha256": "b28d8ce07a99989da9ab2702af1963047299a634b231e34542174e9eba4d7413",
+  "implementationSourcesIncluded": false,
+  "license": "Melvad SDK License"
+}
