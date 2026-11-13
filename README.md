@@ -12,10 +12,10 @@ licenses. SDK implementation sources and source maps are not distributed.
 | Native Android SDK | Kotlin |
 | Web renderers | TypeScript and JavaScript; shipped as JavaScript |
 
-The SDK implementation is supplied in the AAR. GitHub language statistics are
-disabled for this binary repository: compiled Kotlin is not counted, while
-unpacked JavaScript assets would dominate the chart. No source-language
-percentages are claimed for the binary distribution.
+The SDK implementation is supplied in the AAR. The GitHub language indicator
+describes the [Kotlin integration example](Examples/); the binary Maven
+distribution is excluded. Its percentages describe the public example code,
+not the private SDK implementation.
 
 Native Open Measurement 1.6.12 is included for display and video ads. No additional OMID integration is required in the publisher app.
 

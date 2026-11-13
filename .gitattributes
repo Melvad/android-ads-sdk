@@ -1,5 +1,6 @@
 * text eol=lf
 *.aar binary
 Licenses/Native-OMSDK-LICENSE binary
-# Binary distribution: shipped text does not measure implementation languages.
-* linguist-detectable=false
+# Count integration examples, excluding the binary Maven distribution.
+maven/** linguist-vendored=true
+Examples/*.kt linguist-detectable=true -linguist-documentation -linguist-vendored -linguist-generated
