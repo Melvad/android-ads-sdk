@@ -5,6 +5,9 @@ Binary distribution of Melvad Android Ads SDK **1.0.3** for Android 10 (API 29) 
 The repository contains the prebuilt AAR, public Maven metadata, documentation and
 licenses. SDK implementation sources and source maps are not distributed.
 
+The SDK is written in Kotlin. [Selected public API signatures](api/Melvad.Android.api)
+are provided as reference metadata; the implementation is supplied in the AAR.
+
 Native Open Measurement 1.6.12 is included for display and video ads. No additional OMID integration is required in the publisher app.
 
 Rewarded video supports explicit `prepareAd` / `isReady` / `show` and native once-only reward callbacks. Optional supplier-VAST SSV requires a separately configured backend; local reward is not server credit. See the integration guide for the contract and examples.
