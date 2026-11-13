@@ -8,6 +8,9 @@ licenses. SDK implementation sources and source maps are not distributed.
 The SDK is written in Kotlin. [Selected public API signatures](api/Melvad.Android.api)
 are provided as reference metadata; the implementation is supplied in the AAR.
 
+[Distributed runtime files](distribution/) are also available for inspection.
+GitHub's language percentages cover these shipped assets and public API signatures.
+
 Native Open Measurement 1.6.12 is included for display and video ads. No additional OMID integration is required in the publisher app.
 
 Rewarded video supports explicit `prepareAd` / `isReady` / `show` and native once-only reward callbacks. Optional supplier-VAST SSV requires a separately configured backend; local reward is not server credit. See the integration guide for the contract and examples.

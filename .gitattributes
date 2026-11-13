@@ -2,3 +2,4 @@
 *.aar binary
 Licenses/Native-OMSDK-LICENSE binary
 api/*.api text eol=lf linguist-language=Kotlin linguist-detectable=true -linguist-documentation -linguist-generated -linguist-vendored
+distribution/** -text
