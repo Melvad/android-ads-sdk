@@ -5,11 +5,17 @@ Binary distribution of Melvad Android Ads SDK **1.0.3** for Android 10 (API 29) 
 The repository contains the prebuilt AAR, public Maven metadata, documentation and
 licenses. SDK implementation sources and source maps are not distributed.
 
-The SDK is written in Kotlin. [Selected public API signatures](api/Melvad.Android.api)
-are provided as reference metadata; the implementation is supplied in the AAR.
+## Implementation languages
 
-[Distributed runtime files](distribution/) are also available for inspection.
-GitHub's language percentages cover these shipped assets and public API signatures.
+| Component | Languages |
+| --- | --- |
+| Native Android SDK | Kotlin |
+| Web renderers | TypeScript and JavaScript; shipped as JavaScript |
+
+The SDK implementation is supplied in the AAR. GitHub language statistics are
+disabled for this binary repository: compiled Kotlin is not counted, while
+unpacked JavaScript assets would dominate the chart. No source-language
+percentages are claimed for the binary distribution.
 
 Native Open Measurement 1.6.12 is included for display and video ads. No additional OMID integration is required in the publisher app.
 
